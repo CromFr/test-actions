@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8"/>
-		<title>Variable TrnNWN2WalkmeshPayload.Island.header</title>
+		<title>Struct TrnNWN2WalkmeshPayload.Island.Header</title>
 		<link rel="stylesheet" type="text/css" href="../../../styles/ddox.css"/>
 		<link rel="stylesheet" href="../../../prettify/prettify.css" type="text/css"/>
 		<script type="text/javascript" src="../../../scripts/jquery.js">/**/</script><script type="text/javascript" src="../../../scripts/ddox.js">/**/</script>
@@ -170,28 +170,52 @@ $('#symbolSearchPane').show();</script>
 			</ul>
 		</nav>
 		<div id="main-contents">
-			<h1>Variable TrnNWN2WalkmeshPayload.Island.header</h1><p></p>
+			<h1>Struct TrnNWN2WalkmeshPayload.Island.Header</h1><p></p>
 			<div class="prototype">
 				<code class="lang-d">
 					<div class="single-prototype">
-			<span class="kwd">struct</span> <a href="../../../nwn/trn/trn/TrnNWN2WalkmeshPayload.Island.html"><span class="typ">TrnNWN2WalkmeshPayload.Island</span></a>
-			<br/>
-			<span class="pun">
-				{
-				<br/>
-			</span>
-			&nbsp;&nbsp;<span class="com">// ...</span>
-			<br/>
-			&nbsp;&nbsp;<a href="../../../nwn/trn/trn/TrnNWN2WalkmeshPayload.Island.Header.html"><span class="typ">TrnNWN2WalkmeshPayload<wbr/></span><span class="pun">.<wbr/></span><span class="typ">Island<wbr/></span><span class="pun">.<wbr/></span><span class="typ">Header</span></a> <span class="pln">header</span>
+			<span class="kwd">struct</span> <span class="typ">Header</span>
 			<span class="pun">;</span>
-			<br/>
-			&nbsp;&nbsp;<span class="com">// ...</span>
-			<br/>
-			<span class="pun">}</span>
 					</div>
 				</code>
 			</div>
 			
+			<section><h2>Fields</h2>
+				<table>
+					<col class="caption"/>
+					<tr>
+						<th>Name</th><th>Type</th><th>Description</th>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../nwn/trn/trn/TrnNWN2WalkmeshPayload.Island.Header.center.html" class="public"><code>center</code></a>
+						</td>
+						<td class="typecol"><code class="prettyprint lang-d"><a href="../../../nwn/trn/trn/TrnNWN2WalkmeshPayload.Vertex.html"><span class="typ">TrnNWN2WalkmeshPayload<wbr/></span><span class="pun">.<wbr/></span><span class="typ">Vertex</span></a></code></td><td>Center of the island. Z is always 0. TODO: find how it is calculated
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../nwn/trn/trn/TrnNWN2WalkmeshPayload.Island.Header.index.html" class="public"><code>index</code></a>
+						</td>
+						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">uint</span></code></td><td>Index of the island in the aswm.islands array. TODO: weird
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../nwn/trn/trn/TrnNWN2WalkmeshPayload.Island.Header.tile.html" class="public"><code>tile</code></a>
+						</td>
+						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">uint</span></code></td><td>Value looks pretty random, but is identical for all islands
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../nwn/trn/trn/TrnNWN2WalkmeshPayload.Island.Header.triangles_count.html" class="public"><code>triangles_count</code></a>
+						</td>
+						<td class="typecol"><code class="prettyprint lang-d"><span class="typ">uint</span></code></td><td>Number of triangles in this island
+</td>
+					</tr>
+				</table>
+			</section>
 			
 			<footer>
 				<table class="license-info">

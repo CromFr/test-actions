@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8"/>
-		<title>Function GffField.value</title>
+		<title>Alias GffField.Value</title>
 		<link rel="stylesheet" type="text/css" href="../../styles/ddox.css"/>
 		<link rel="stylesheet" href="../../prettify/prettify.css" type="text/css"/>
 		<script type="text/javascript" src="../../scripts/jquery.js">/**/</script><script type="text/javascript" src="../../scripts/ddox.js">/**/</script>
@@ -170,12 +170,24 @@ $('#symbolSearchPane').show();</script>
 			</ul>
 		</nav>
 		<div id="main-contents">
-			<h1>Function GffField.value</h1><p>Get the value as a Variant
-</p>
+			<h1>Alias GffField.Value</h1><p></p>
 			<div class="prototype">
 				<code class="lang-d">
 					<div class="single-prototype">
-			<span class="kwd">const</span><span class="pun">(</span><span class="pln">std<wbr/></span><span class="pun">.</span><span class="pln">variant<wbr/></span><span class="pun">.</span><span class="typ">VariantN</span>!(32L,ubyte,byte,ushort,short,uint,int,ulong,long,float,double,string,nwn.fastgff.GffResRef,nwn.fastgff.GffLocString,ubyte[],nwn.fastgff.GffStruct,nwn.fastgff.GffList)<span class="pun">)</span> <span class="pln">value</span><span class="pun">(</span><span class="pun">)</span><span class="pln"> </span><span class="kwd">@property const</span><span class="pun">;</span>
+			<span class="kwd">struct</span> <a href="../../nwn/fastgff/GffField.html"><span class="typ">GffField</span></a>
+			<br/>
+			<span class="pun">
+				{
+				<br/>
+			</span>
+			&nbsp;&nbsp;<span class="com">// ...</span>
+			<br/>
+			&nbsp;&nbsp;<span class="kwd">alias</span> <span class="pln">Value</span>
+			 <span class="pun">=</span> <span class="pln">std<wbr/></span><span class="pun">.</span><span class="pln">variant<wbr/></span><span class="pun">.</span><span class="typ">VariantN</span>!(32L,ubyte,byte,ushort,short,uint,int,ulong,long,float,double,string,nwn.fastgff.GffResRef,nwn.fastgff.GffLocString,ubyte[],nwn.fastgff.GffStruct,nwn.fastgff.GffList)<span class="pun">;</span>
+			<br/>
+			&nbsp;&nbsp;<span class="com">// ...</span>
+			<br/>
+			<span class="pun">}</span>
 					</div>
 				</code>
 			</div>

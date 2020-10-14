@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8"/>
-		<title>Enum Dds.Header.DDPF.Flags</title>
+		<title>Variable Dds.Header.DDPF.flags</title>
 		<link rel="stylesheet" type="text/css" href="../../styles/ddox.css"/>
 		<link rel="stylesheet" href="../../prettify/prettify.css" type="text/css"/>
 		<script type="text/javascript" src="../../scripts/jquery.js">/**/</script><script type="text/javascript" src="../../scripts/ddox.js">/**/</script>
@@ -170,66 +170,29 @@ $('#symbolSearchPane').show();</script>
 			</ul>
 		</nav>
 		<div id="main-contents">
-			<h1>Enum Dds.Header.DDPF.Flags</h1><p></p>
+			<h1>Variable Dds.Header.DDPF.flags</h1><p>See Flags
+</p>
 			<div class="prototype">
 				<code class="lang-d">
 					<div class="single-prototype">
-			<span class="kwd">enum</span> <span class="typ">Flags</span>
-			 <span class="pun">:</span> <span class="typ">int</span> <span class="pun">{ ... }</span>
+			<span class="kwd">struct</span> <a href="../../nwn/dds/Dds.Header.DDPF.html"><span class="typ">Dds.Header.DDPF</span></a>
+			<br/>
+			<span class="pun">
+				{
+				<br/>
+			</span>
+			&nbsp;&nbsp;<span class="com">// ...</span>
+			<br/>
+			&nbsp;&nbsp;<span class="typ">uint</span> <span class="pln">flags</span>
+			<span class="pun">;</span>
+			<br/>
+			&nbsp;&nbsp;<span class="com">// ...</span>
+			<br/>
+			<span class="pun">}</span>
 					</div>
 				</code>
 			</div>
 			
-			<section><h2>Enum members</h2>
-				<table>
-					<col class="caption"/>
-					<tr>
-						<th>Name</th><th>Description</th>
-					</tr>
-					<tr>
-						<td id="DDPF_ALPHA">
-							<code>DDPF_ALPHA</code>
-						</td>
-						<td>Used in some older DDS files for alpha channel only uncompressed data (dwRGBBitCount contains the alpha channel bitcount; dwABitMask contains valid data)
-</td>
-					</tr>
-					<tr>
-						<td id="DDPF_ALPHAPIXELS">
-							<code>DDPF_ALPHAPIXELS</code>
-						</td>
-						<td>Texture contains alpha data; dwRGBAlphaBitMask contains valid data.
-</td>
-					</tr>
-					<tr>
-						<td id="DDPF_FOURCC">
-							<code>DDPF_FOURCC</code>
-						</td>
-						<td>Texture contains compressed RGB data; dwFourCC contains valid data.
-</td>
-					</tr>
-					<tr>
-						<td id="DDPF_LUMINANCE">
-							<code>DDPF_LUMINANCE</code>
-						</td>
-						<td>Used in some older DDS files for single channel color uncompressed data (dwRGBBitCount contains the luminance channel bit count; dwRBitMask contains the channel mask). Can be combined with DDPF_ALPHAPIXELS for a two channel DDS file.
-</td>
-					</tr>
-					<tr>
-						<td id="DDPF_RGB">
-							<code>DDPF_RGB</code>
-						</td>
-						<td>Texture contains uncompressed RGB data; dwRGBBitCount and the RGB masks (dwRBitMask, dwGBitMask, dwBBitMask) contain valid data.
-</td>
-					</tr>
-					<tr>
-						<td id="DDPF_YUV">
-							<code>DDPF_YUV</code>
-						</td>
-						<td>Used in some older DDS files for YUV uncompressed data (dwRGBBitCount contains the YUV bit count; dwRBitMask contains the Y mask, dwGBitMask contains the U mask, dwBBitMask contains the V mask)
-</td>
-					</tr>
-				</table>
-			</section>
 			
 			<footer>
 				<table class="license-info">
